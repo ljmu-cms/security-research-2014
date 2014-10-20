@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=1024" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <title>PROTECT - Security Research</title>
+    
+    <meta name="description" content="Presentation about the security research at PROTECT in LJMU" />
+    <meta name="author" content="Bartek Szopka" />
+
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:regular,semibold,italic,italicsemibold|PT+Sans:400,700,400italic,700italic|PT+Serif:400,700,400italic,700italic" rel="stylesheet" />
+
+    <link href="css/presentation.css" rel="stylesheet" />
+</head>
+
+<body class="impress-not-supported">
+
+<div class="fallback-message">
+    <p>Your browser <b>doesn't support the features required</b> for this presentation, so you are presented with a simplified version.</p>
+    <p>For the best experience please use the latest <b>Chrome</b>, <b>Safari</b> or <b>Firefox</b> browser.</p>
+</div>
+
+<div id="background">
+	<img id="logo-protect" src="images/PROTECT.png" />
+	<img id="logo-ljmu" src="images/LJMU.png" />
+	<h1>Security Research</h1>
+	<div id="impress" data-transition-duration="1000">
+
+			<div id="title" class="step slide" data-x="2500" data-y="0" data-z="0" data-rotate-y="70" >
+				<div id="title-background">
+					<div class="left-line">
+						<h2>School of Computer Science<h2>
+						<br />
+						<h2>PROTECT Research Centre</h2>
+					</div>
+				</div>
+			</div>
+
+			<div id="security" class="step slide" data-x="2349" data-y="200" data-z="855" data-rotate-y="50" >
+				<h2>Security?</h2>
+				<p /><em>Who can access what and how?</em>
+				<p />Creating mechanisms to enforce this
+				<p />Security doesn't exist on its own; needs to be applied in a context
+				<div class="alicebob"><img class="alicebobcat" src="images/alicebobcat.png" /></div>
+			</div>
+
+			<div id="forensics" class="step slide" data-x="1915" data-y="400" data-z="1607" data-rotate-y="30" >
+				<h2>Security and forensics</h2>
+				<p /><em>Security: hypothetical</em>
+				<p class="indent" />Help enforce the security requirements
+				<p class="indent" />Understand if something is secure
+
+				<img id="fingerprint" src="images/forensics.png" />
+				<p /><em>Forensics: historical</em>
+				<p class="indent" />Who accessed what and how?
+				<p class="indent" />Often circumventing security
+			</div>
+
+			<div id="existing" class="step slide" data-x="1250" data-y="600" data-z="2165" data-rotate-y="10" >
+				<div id="lever">
+					<h2>Existing research</h2>
+					<ul>
+						<li>Network security</li>
+						<li>Intrusion/anomaly detection</li>
+						<li>Systems-of-Systems security</li>
+						<li>Security visualisation</li>
+						<li>Encryption and protocols</li>
+						<li>Risk analysis</li>
+						<li>Social network forensics</li>
+					</ul>
+				</div>
+			</div>
+
+			<div id="future" class="step slide" data-x="434" data-y="800" data-z="2462" data-rotate-y="-10" >
+				<h2>Future topics of interest</h2>
+				<ul>
+					<li>IoT security</li>
+					<li>Data analysis security</li>
+					<li>Security gamification</li>
+					<li>Cloud security and forensics</li>
+					<li>Security usability</li>
+					<li>Computer forensic visualisation</li>
+					<li>Quantum and massively parallel security</li>
+					<li>Emergent security and trust</li>
+				</ul>
+			</div>
+
+			<div id="not-covered" class="step slide" data-x="-434" data-y="1000" data-z="2462" data-rotate-y="-30" >
+				<h2>Topics not covered</h2>
+				<ul>
+					<li>Finding vulnerabilities (white hats)</li>
+					<li>Incident response and CERTs</li>
+					<li>Formal security analysis</li>
+					<li></li>
+				</ul>
+			</div>
+
+			<div id="overview" class="step" data-x="500" data-y="500" data-z="4000" data-scale="2">
+				<p /><a href="http://www.protect-ci.org">www.protect-ci.org</a>
+			</div>
+		
+	</div>
+</div>
+
+<div class="hint">
+	<p>Use a spacebar or arrow keys to navigate</p>
+</div>
+<script>
+if ("ontouchstart" in document.documentElement) { 
+    document.querySelector(".hint").innerHTML = "<p>Tap on the left or right to navigate</p>";
+}
+</script>
+
+<script src="js/impress.js"></script>
+<script>impress().init();</script>
+
+</body>
+</html>
+
